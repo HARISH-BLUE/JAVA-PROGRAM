@@ -13,6 +13,5 @@ public class dry {
         student.remove("p");
         System.out.println(student);
 
-
     }    
 }

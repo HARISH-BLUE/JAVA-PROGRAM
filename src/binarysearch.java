@@ -24,7 +24,7 @@ public class binarysearch {
             }
         }if(found){
             System.out.print("not found");
-        }
+        }sc.close();
 
     }    
 }
