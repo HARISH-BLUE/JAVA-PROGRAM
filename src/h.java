@@ -15,5 +15,6 @@ public class h {
         while(n>9){
             n=hell(n);
         }System.out.print(n);
+        sc.close();
     }   
 }

@@ -6,6 +6,7 @@ public class reverse_string {
         String res="";
         for(int i=s.length()-1;i>=0;i--){
             res+=s.charAt(i);
-        }System.out.print(res)
+        }System.out.print(res);
+        sc.close();
     }
 }

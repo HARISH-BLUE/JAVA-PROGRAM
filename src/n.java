@@ -21,6 +21,7 @@ public class n {
                 v=arr[i];
             }
         }System.out.print(v1);
+        sc.close();
     }
     
 }

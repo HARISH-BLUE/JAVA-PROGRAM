@@ -10,7 +10,8 @@ public class unique {
         // Replace your line 10 with these three lines:
         for (int val : hell(arr)) {
            System.out.print(val + " ");
-}
+        }sc.close();
+    }
 
      }
      public static int[] hell(int num[]){
@@ -23,5 +24,6 @@ public class unique {
             left++;
             right--;
         }return num;
+        
      }
 }

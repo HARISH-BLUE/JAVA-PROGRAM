@@ -11,6 +11,6 @@ public class fibonic {
             s=l+f;
             f=l;
             l=s;
-        }
+        }sc.close();
     }    
 }

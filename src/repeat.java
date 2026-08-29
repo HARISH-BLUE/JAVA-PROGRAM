@@ -19,5 +19,6 @@ public class repeat {
             
             }
         }System.out.println(count+" ways");
+        sc.close();
     }    
 }

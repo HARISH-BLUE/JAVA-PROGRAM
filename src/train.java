@@ -30,6 +30,6 @@ public class train {
                 }
             }
             
-        }
+        }sc.close();
     }    
 }
