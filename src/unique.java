@@ -12,8 +12,6 @@ public class unique {
            System.out.print(val + " ");
         }sc.close();
     }
-
-     }
      public static int[] hell(int num[]){
         int left=0;
         int right=num.length-1;
