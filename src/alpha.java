@@ -9,5 +9,6 @@ public class alpha {
                 s1+=s.charAt(i);
             }
         }System.out.print(s1);
+        sc.close();
     }
 }
