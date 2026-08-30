@@ -3,6 +3,7 @@ public class frequencyeach {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
+        sc.close();
         int freq=1;
         char str[]=s.toCharArray();
         Arrays.sort(str);

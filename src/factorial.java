@@ -3,6 +3,7 @@ public class factorial {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
+        sc.close();
         String s=String.valueOf(num);
         char[] arr=s.toCharArray();
         for(int i=0;i<arr.length;i++){
@@ -18,7 +19,7 @@ public class factorial {
         }for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]);
         }
-        sc.close();
+        
     }
     
 }

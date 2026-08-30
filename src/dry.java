@@ -9,10 +9,8 @@ public class dry {
         }
         System.out.println(student);
         System.out.println(student.size());
-        System.out.println(student.contains("m"));
-        student.remove("p");
+        System.out.println(student.contains('m'));
+        student.remove('p');
         System.out.println(student);
-
-
     }    
 }
