@@ -6,7 +6,7 @@ public class uniqueletters {
         String r="";
         for(int i=0;i<s.length();i++){
             if(!r.contains(String.valueOf(s.charAt(i)))){
-                r=r+s.charAt(i);
+                r+=s.charAt(i);
             }
         }
         System.out.println(r);
