@@ -6,5 +6,6 @@ public class testing {
         int n2=sc.nextInt();
         // only for 2 dig concat
         System.out.print(n1*100+n2);
+        sc.close();
     }    
 }
