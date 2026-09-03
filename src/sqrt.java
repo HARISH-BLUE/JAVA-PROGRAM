@@ -6,5 +6,6 @@ public class sqrt {
         double n=sc.nextDouble();
         double result=Math.sqrt(n);
         System.out.println("Square root of "+n+" is "+result);
+        sc.close();
     }
 }
