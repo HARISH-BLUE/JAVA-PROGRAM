@@ -4,7 +4,12 @@ public class jam {
         Scanner sc=new Scanner(System.in);
         String s1=sc.next();
         String s2=sc.next();
-        System.out.println(s1.contains(s2));
+        if(s1.contains(s2)){
+            System.out.println("contains");
+        }else{
+            System.out.println("not contains");
+        }
+        
         sc.close();
     }    
 }
