@@ -8,6 +8,5 @@ public class passcode {
         String s=String.valueOf(n1)+String.valueOf(n2);
         int n=Integer.parseInt(s);
         System.out.print(n);
-        
     }    
 }
