@@ -17,5 +17,6 @@ public class alphafirst {
 		}
 
 		System.out.println(alphabets.append(remaining));
+		scanner.close();
 	}
 }
