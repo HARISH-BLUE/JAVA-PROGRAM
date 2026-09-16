@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class alphafirst {
 	public static void main(String[] args) {
-		String input = "a1b2c3";
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter a string: ");
+		String input = scanner.nextLine();
 		StringBuilder alphabets = new StringBuilder();
 		StringBuilder remaining = new StringBuilder();
 
