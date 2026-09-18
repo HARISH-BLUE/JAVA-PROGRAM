@@ -1,5 +1,5 @@
 import java.util.*;
-public class dry {
+public class UniqueCharacterSetDemo {
     public static void main(String[] args){
         HashSet<Character> student=new HashSet<>();
         String s="mississippi";
