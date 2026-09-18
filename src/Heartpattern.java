@@ -1,4 +1,4 @@
-public class create {
+public class Heartpattern {
     public static void main(String[] args) {
         int size = 8; // controls the size of the heart
 
