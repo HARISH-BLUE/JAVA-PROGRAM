@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class to {
+public class Arraylist {
     public static void main(String[] args){
         ArrayList<String>stu=new ArrayList<>();
         stu.add("sudarson");
