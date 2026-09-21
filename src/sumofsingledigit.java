@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class h {
+public class sumofsingledigit {
     public static int hell(int n){
         int s=0;
         while(n>0){

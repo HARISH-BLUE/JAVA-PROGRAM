@@ -1,6 +1,6 @@
 public class Heartpattern {
     public static void main(String[] args) {
-        int size = 8; // controls the size of the heart
+        int size = 5; // controls the size of the heart
 
         for (int i = size / 2; i <= size; i += 2) {
             // upper left spaces
