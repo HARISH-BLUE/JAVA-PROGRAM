@@ -8,5 +8,6 @@ public class EvenOdd {
         }else{
             System.out.print(n+" : is Odd");
         }
+        sc.close(); 
     }
 }
