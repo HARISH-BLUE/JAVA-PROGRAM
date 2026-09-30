@@ -4,6 +4,7 @@ public class swapusingXOR {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
+        sc.close();
         System.out.println("before swap : "+a +" "+b);
         a=a^b;
         b=a^b;
