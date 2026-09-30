@@ -8,7 +8,7 @@ public class prob1 {
             for(int j=0;j<n;j++){
                 arr[i][j]=sc.nextInt();
             }
-        }
+        }sc.close();
         int k1=n/2,k2=n/2;
         int v1=0,v2=0;
         for(int i=0;i<n;i++){
@@ -30,6 +30,5 @@ public class prob1 {
             dif=dif+k2-v2;
         }
         System.out.print(dif);
-        
     }
 }

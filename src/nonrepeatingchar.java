@@ -17,6 +17,6 @@ class nonrepeatingchar{
             }
         }if(n==10){
             System.out.print(-1);
-        }
+        }sc.close();
     }
 }

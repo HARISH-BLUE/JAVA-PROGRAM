@@ -5,6 +5,7 @@ public class GCDandLCM {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
+        sc.close();
         int num1=a;
         int num2=b;
     while (b != 0) {
